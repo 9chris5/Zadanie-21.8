@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 mongoose.Promise = global.Promise;
-mongoose.connect('ds143774.mlab.com:43774/testdatabase -u <chris95> -p <krzysiu95>
+mongoose.connect('% mongo ds143774.mlab.com:43774/testdatabase -u <chris95> -p <krzysiu95>
 ', {
     useMongoClient: true
 });
